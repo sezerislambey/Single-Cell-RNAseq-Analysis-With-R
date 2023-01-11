@@ -1,12 +1,12 @@
 # working with the Smart-Seq2 dataset
 
-print ("hello workshop")
+
 
 library(Seurat)
 library(tidyverse)
 
 # set your working directory
-setwd("/home/klaus/Documents/Bioinformatics/workshop/qcb_single_cell")
+setwd("...............")
 
 # load the dataset
 mydata <- read.table("GSE102130_K27Mproject.RSEM.vh20170621.txt", header = T, row.names = 1)
